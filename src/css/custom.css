@@ -1,0 +1,33 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+:root {
+  --ifm-color-primary: #eb9f00;
+  --ifm-color-primary-dark: #d38f00;
+  --ifm-color-primary-darker: #c88700;
+  --ifm-color-primary-darkest: #a56f00;
+  --ifm-color-primary-light: #ffae03;
+  --ifm-color-primary-lighter: #ffb10f;
+  --ifm-color-primary-lightest: #ffbd32;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #eb9f00;
+  --ifm-color-primary-dark: #d38f00;
+  --ifm-color-primary-darker: #c88700;
+  --ifm-color-primary-darkest: #a56f00;
+  --ifm-color-primary-light: #ffae03;
+  --ifm-color-primary-lighter: #ffb10f;
+  --ifm-color-primary-lightest: #ffbd32;
+}
